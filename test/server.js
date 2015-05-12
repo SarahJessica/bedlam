@@ -22,7 +22,6 @@ describe('server.js', function(){
       server.stop(function(){
         Mongoose.disconnect(done);
       });
-      done();
     });
   });
 
